@@ -15,7 +15,9 @@
     "render.MixinLevelRenderer",
     "render.MixinDeltaTrackerTimer",
     "render.gui.MixinCommandSuggestions",
-    "render.gui.MixinGui"
+    "render.gui.MixinGui",
+    "input.IKeyBinding",
+    "input.MixinKeyboard"
   ],
   "injectors": {
     "defaultRequire": 1
