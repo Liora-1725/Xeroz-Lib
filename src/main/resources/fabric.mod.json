@@ -1,19 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "oyvey",
-  "version": "${version}",
-  "name": "oyvey-ported",
-  "description": "free and opensource client base",
+  "id": "soholib",
+  "version": "1.0.6",
+  "name": "SoHoLib",
+  "description": "Technical library for socket handling and rendering optimization.",
   "authors": [
-    "3arthqu4ke",
-    "alpha432",
-    "cattyn"
+    "m_ivanov_92",
+    "roBcov",
+    "zigofan_22"
   ],
   "contact": {
-    "repo": "https://github.com/mioclient/oyvey-ported"
+    "repo": "https://github.com/soho-team/soholib"
   },
   "license": "MIT",
-  "environment": "client",
+  "icon": "assets/soholib/icon.png",
+  "environment": "*",
   "accessWidener": "oyvey.accesswidener",
   "entrypoints": {
     "client": [
@@ -27,8 +28,8 @@
     "oyvey.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=${loader_version}",
+    "fabricloader": ">=0.15.0",
     "fabric": "*",
-    "minecraft": "${minecraft_version}"
+    "minecraft": "1.21.5"
   }
 }
